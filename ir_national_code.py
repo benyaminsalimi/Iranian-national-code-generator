@@ -53,13 +53,13 @@ class ir_national_code(object):
         return result
 
     # return national code by state name
-    def by_first_3_digit(self, first3digit):
+    def by_citycode(self, citycode):
         result = []
         for city_code in self.city_codes:
-            if city_code == first3digit:
+            if city_code == citycode:
                 for x in range(10000000, 19999999):
                     # each national code
-                    code = str(first3digit + str(x)[1:])
+                    code = str(citycode + str(x)[1:])
                     if self.validator(code):
                         # DO SOMETHING for example : print(code)
                         # add valid code to result
