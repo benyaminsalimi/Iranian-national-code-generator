@@ -20,11 +20,6 @@ you can use `ir_national_code.py` as module in your python program.
 ```
 also you can change #DO SOMETHING line in `ir_national_code.py` file to do somthing with the generated national code
 
-## TODO
-[  ] add json export
-
-[  ] add text export
-
 
 
 Tnx to [fandogh](https://github.com/fandogh/codemeli/docs) and [ebraminio](https://gist.github.com/ebraminio/5292017)
