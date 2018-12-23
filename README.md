@@ -1,8 +1,12 @@
 # Iranian national code generator
 python script to generate all valid iranian national code by state or city name
 ## how to use
-> 
+```bash
+python3 main.py -h #for help
+python3 main.py -s تهران -o tehran.text
+python3 main.py -s فارس
 
+```
 
 ## use as module
 you can use `ir_national_code.py` as module in your python program.
