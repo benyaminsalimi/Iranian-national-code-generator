@@ -1,4 +1,4 @@
-# Iranian national code dictionary generator
+# Iranian national code generator
 python script to generate all valid iranian national code by state or city name
 ## how to use
 > 
